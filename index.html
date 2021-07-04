@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b43189ac81.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="pagina1stylos.css" />
+    <title>galeria alejandro</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <h1>Alejandro Alvarez</h1>
+          <p>Desarrollador Web</p>
+        </div>
+        <form action="">
+          <input
+            type="text"
+            class="barra-busqueda"
+            id="barra-busqueda"
+            placeholder="Buscar"
+          />
+        </form>
+        <div class="categorias" id="categorias">
+          <a href="#" class="activo">todos</a>
+          <a href="#">Naturaleza</a>
+          <a href="#">Ciudades</a>
+          <a href="#">Personas</a>
+          <a href="#">Animales</a>
+        </div>
+      </header>
+
+      <section class="grid" id="grid">
+        <div
+          class="iten"
+          data-categoria="ciudades"
+          data-etiquetas="ciudades autos carros calles"
+          data-descripcion="1.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/ciudad1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="personas"
+          data-etiquetas="personas mujeres"
+          data-descripcion="2.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/persona1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="animales"
+          data-etiquetas="animales pandas"
+          data-descripcion="3.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/animal2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="ciudades"
+          data-etiquetas="ciudades autos carros calles"
+          data-descripcion="4.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/ciudad2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="naturaleza"
+          data-etiquetas="paisajes naturaleza montañas mar playas"
+          data-descripcion="5.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/naturaleza1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="animales"
+          data-etiquetas="animales leones"
+          data-descripcion="6.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/animal1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="personas"
+          data-etiquetas="personas mujeres"
+          data-descripcion="7.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/persona2.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="paisaje"
+          data-etiquetas="paisajes montañas mar playas"
+          data-descripcion="8.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/paisaje1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="iten"
+          data-categoria="paisaje"
+          data-etiquetas="paisajes montañas mar playas"
+          data-descripcion="9.-descripcion de imagen"
+        >
+          <div class="iten-contenido">
+            <img src="img/paisaje2.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+          <img src="" alt="" />
+        </div>
+        <p class="descripcion"></p>
+      </section>
+
+      <footer class="contenedor">
+        <div class="redes-sociales">
+          <div class="contenedor-icono">
+            <a
+              href="https://twitter.com/?lang=es"
+              target="_blank"
+              class="twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div class="contenedor-icono">
+            <a
+              href="https://facebook.com/?lang=es"
+              target="_blank"
+              class="facebook"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="contenedor-icono">
+            <a
+              href="https://instagram.com/?lang=es"
+              target="_blank"
+              class="instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="creado-por">
+          <p>
+            sitio diseñado por <a href="#">Alejandro Alvarez</a> -
+            <a href="https://facebook.com/?lang=es" target="_blank">Tocino</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.4/dist/muuri.min.js"></script>
+    <script src="pagina1javas.js"></script>
+  </body>
+</html>
